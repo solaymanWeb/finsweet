@@ -1,0 +1,97 @@
+.inquery-area {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.stellar {
+    width: 50%;
+    background-image: url("../../../assest/images/stelar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.stellar h3 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+
+}
+
+.stellar p {
+    line-height: 28px;
+
+}
+
+.stellar::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(28, 30, 83, 0.5);
+    z-index: -1;
+}
+
+.inquery-form {
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.inquery-form {
+    background-color: #1C1E53;
+    padding: 96px;
+}
+
+.inquery-form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    padding-bottom: 16px;
+}
+
+.inquery-form p {
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+.form input {
+    padding: 16px;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 16px;
+}
+
+.form button {
+    padding: 16px 150px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    background-color: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+}
+
+.form button:hover {
+    color: #1B1C2B;
+    background-color: #FCD980;
+}
+
+.inquery-form a {
+    display: inline-block;
+    padding-left: 140px;
+    padding-top: 28px;
+    color: #FFFFFF;
+}

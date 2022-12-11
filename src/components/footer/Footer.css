@@ -1,0 +1,83 @@
+
+.footer-fluid {
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-logo img {
+    padding-bottom: 22px;
+}
+
+.footer-top-logo {
+    width: 50%;
+    position: relative;
+}
+
+.footer-top-text {
+    width: 50%;
+}
+
+.footer-top-logo>p {
+    color: #F4F6FC;
+    opacity: 0.8;
+    padding-bottom: 86px;
+    padding-right: 250px;
+
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 517px;
+    background-color: #FCD980;
+    color: #282938;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.email-me {
+    width: 50%;
+    color: #282938;
+}
+.email-me p,
+.coll-me p {
+    color: #282938;
+    padding-top: 10px;
+}
+.coll-me {
+    width: 50%;
+}
+.footer-top-text {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 50px;
+    width: 400px;
+}
+.footer-top-text h3 {
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+.footer-top-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+    padding-bottom: 28px;
+}
+.social-icon a {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-right: 16px;
+}
+
+.read-more a {
+    color: #282938;
+}

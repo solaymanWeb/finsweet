@@ -1,0 +1,128 @@
+
+.client-slide-fluid {
+    padding: 128px 0px;
+    background: ##f5f5f5a2;
+
+}
+
+.client-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-left {
+    width: 30%;
+    padding-right: 80px;
+}
+
+.client-left h3 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    padding-bottom: 16px;
+
+}
+
+.client-right {
+    width: 70%;
+    position: relative;
+}
+
+.client-right-profile img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.client-right-profile {
+    display: flex;
+    align-items: center;
+}
+
+.client-img {
+    padding-right: 15px;
+}
+
+.client-content h3 {
+
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    padding-bottom: 48px;
+
+}
+
+.client-content {
+    padding: 16px;
+}
+
+.slick-scroll-icon {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.prev {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+
+.prev i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font: 20px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.prev:hover {
+    background-color: #5239FA;
+    color: #FFF;
+    border: transparent;
+}
+
+.next {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    margin-left: 16px;
+}
+
+.next i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.next:hover {
+    background-color: #5239FA;
+    border: transparent;
+    color: #FFF;
+}
