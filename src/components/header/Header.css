@@ -1,0 +1,91 @@
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/**
+    Common css end
+*/
+.banner-full {
+    background-color: #1C1E53;
+
+}
+.header-full {
+    background-color: #1C1E53;
+
+}
+
+.header-full {
+    height: 92px;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    align-items: center;
+}
+.main-logo img {
+    width: 100%;
+}
+.menu-item ul {
+    display: flex;
+    align-items: center;
+}
+.menu-item ul a {
+    color: #FFF;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+
+.menu-item ul li:hover a {
+    color: rgb(148, 155, 232);
+}
+
+.header-btn {
+    width: 185px;
+    text-align: center;
+    border: 2px solid #F4F6FC33;
+    font-weight: 500;
+    padding: 15px 16px;
+    margin-left: 16px;
+    background-color: transparent;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.header-btn a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.header-btn:hover {
+    background-color: #FCD980;
+    color: black;
+}
+
+.header-btn:hover a {
+    color: black;
+}
+
+.menu-item,
+.header-btn button a {
+    font-weight: 500;
+    color: #BBBBCB;
+}

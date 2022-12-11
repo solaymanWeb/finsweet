@@ -1,0 +1,50 @@
+.banner-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+
+}
+button.header-btn {
+    color: white;
+    text-decoration: none;
+}
+.banner-text {
+    width: 582px;
+    color: #ffffff;
+    padding-right: 70px;
+}
+
+.banner-text h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-weight: 500;
+    padding-top: 22px;
+    line-height: 28px;
+}
+
+.view-work {
+    padding-top: 40px;
+}
+
+
+.view-work button a {
+    color: #FFF;
+}
+
+.view-work:hover button {
+    background-color: #FCD980;
+    color: #1C1E53;
+}
+
+.view-work span {
+    padding-left: 20px;
+}
+
+.view-work span i {
+    font-size: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+}

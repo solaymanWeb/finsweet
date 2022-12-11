@@ -1,0 +1,195 @@
+
+.project-full {
+    padding: #FFFFFF;
+    padding: 100px 0;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.project-header h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #282938;
+}
+
+.project {
+    display: flex;
+}
+
+.project-left {
+    padding-right: 10px;
+    width: 843px;
+    height: 600px;
+    position: relative;
+}
+
+.left-card-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+
+}
+
+.project-left:hover .left-card-overlay {
+    right: 50%;
+
+}
+
+.left-card-overlay-text {
+    padding: 0 30px;
+    color: #FFFFFF;
+    width: 300px;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform-origin: left;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.project-left:hover .left-card-overlay-text {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.left-card-overlay-text h4 {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 16px;
+}
+
+.left-card-overlay-text p {
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+
+.left-card-overlay-text a i {
+    text-align: center;
+    width: 300px;
+    color: #ffffff;
+}
+
+.project-left .left-card-overlay-text {
+    position: absolute;
+    top: 50%;
+}
+
+.project-left img {
+    width: 100%;
+}
+
+.project-right .top-img {
+    padding-bottom: 32px;
+}
+
+.top-img img {
+    width: 100%;
+}
+
+.top-img {
+    position: relative;
+    padding-left: 16px;
+    width: 400px;
+}
+
+.top-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 37px;
+    left: 17px;
+    color: #FFFFFF;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    padding: 0px 60px 20px 60px;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.top-img:hover .top-img-overlay {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.top-img-overlay-text h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.top-img-overlay-text a {
+    color: yellow;
+}
+
+.top-img-overlay-text i {
+    padding-left: 10px;
+}
+
+.top-img .top-img-overlay-text {
+    position: absolute;
+    top: 50%;
+}
+
+.bottom-img {
+    position: relative;
+    width: 400px;
+    padding-left: 16px;
+}
+
+.bottom-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 17px;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.bottom-img:hover .bottom-img-overlay {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}

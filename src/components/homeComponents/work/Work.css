@@ -1,0 +1,61 @@
+.services-full {
+    background-color: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 80px;
+}
+
+.services-area {
+    display: flex;
+}
+
+.work-info {
+    width: 40%;
+    padding-right: 142px;
+}
+
+.work-info h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+}
+
+.work-info p {
+    padding: 16px 0;
+    line-height: 28px;
+}
+
+.work-info a {
+    font-weight: bold;
+}
+
+.work-categorys {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.category {
+    width: 328px;
+    padding-right: 10px;
+    padding-bottom: 48px;
+}
+
+.category h5 {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.category p {
+    line-height: 28px;
+    font-size: 16px;
+    color: #282938;
+}
+
+.category img {
+    width: 50px;
+    height: 50px;
+}
